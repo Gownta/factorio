@@ -1,0 +1,35 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "item",
+          "name": "rail"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "straight-rail",
+        "position": {
+          "x": -2057,
+          "y": 9555
+        }
+      },
+      {
+        "entity_number": 2,
+        "name": "rail-signal",
+        "position": {
+          "x": -2055.5,
+          "y": 9555.5
+        },
+        "direction": 4
+      }
+    ],
+    "item": "blueprint",
+    "label": "rail and signal",
+    "version": 281479275151360
+  }
+}

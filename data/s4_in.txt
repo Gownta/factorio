@@ -1,0 +1,2139 @@
+{
+  "blueprint_book": {
+    "blueprints": [
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2909
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "locomotive",
+              "position": {
+                "x": -2583,
+                "y": 2914
+              },
+              "orientation": 0.5,
+              "items": {
+                "nuclear-fuel": 1
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2911
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2913
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "rail-signal",
+              "position": {
+                "x": -2584.5,
+                "y": 2914.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2915
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "train-stop",
+              "position": {
+                "x": -2585,
+                "y": 2917
+              },
+              "direction": 4,
+              "station": "TheGlassman333"
+            },
+            {
+              "entity_number": 8,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2917
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "rail-chain-signal",
+              "position": {
+                "x": -2584.5,
+                "y": 2918.5
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2919
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "cargo-wagon"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "cargo-wagon",
+              "position": {
+                "x": -2625,
+                "y": 2878
+              },
+              "orientation": 0,
+              "inventory": null
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 1
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2589,
+                "y": 2919
+              },
+              "neighbours": [
+                3
+              ]
+            },
+            {
+              "entity_number": 2,
+              "name": "straight-rail",
+              "position": {
+                "x": -2583,
+                "y": 2919
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2577,
+                "y": 2919
+              },
+              "neighbours": [
+                1
+              ]
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 2
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electric-furnace"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "beacon",
+              "position": {
+                "x": -2591.5,
+                "y": 2895.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "beacon",
+              "position": {
+                "x": -2588.5,
+                "y": 2896.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "beacon",
+              "position": {
+                "x": -2585.5,
+                "y": 2896.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "beacon",
+              "position": {
+                "x": -2580.5,
+                "y": 2896.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "beacon",
+              "position": {
+                "x": -2577.5,
+                "y": 2896.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "beacon",
+              "position": {
+                "x": -2574.5,
+                "y": 2895.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "beacon",
+              "position": {
+                "x": -2591.5,
+                "y": 2898.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "beacon",
+              "position": {
+                "x": -2574.5,
+                "y": 2898.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "substation",
+              "position": {
+                "x": -2589,
+                "y": 2900
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 12
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                17
+              ]
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2589.5,
+                "y": 2898.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2586.5,
+                "y": 2900.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2584.5,
+                "y": 2899.5
+              },
+              "direction": 6,
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 9
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2584.5,
+                "y": 2898.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2579.5,
+                "y": 2900.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2581.5,
+                "y": 2899.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 17
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "small-lamp",
+              "position": {
+                "x": -2581.5,
+                "y": 2898.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "substation",
+              "position": {
+                "x": -2577,
+                "y": 2900
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 15
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                9
+              ]
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -2576.5,
+                "y": 2898.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "beacon",
+              "position": {
+                "x": -2591.5,
+                "y": 2902.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "small-lamp",
+              "position": {
+                "x": -2589.5,
+                "y": 2901.5
+              }
+            },
+            {
+              "entity_number": 21,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2584.5,
+                "y": 2900.5
+              },
+              "direction": 2,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 22,
+              "name": "small-lamp",
+              "position": {
+                "x": -2584.5,
+                "y": 2901.5
+              }
+            },
+            {
+              "entity_number": 23,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2581.5,
+                "y": 2900.5
+              },
+              "direction": 6,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 24,
+              "name": "small-lamp",
+              "position": {
+                "x": -2581.5,
+                "y": 2901.5
+              }
+            },
+            {
+              "entity_number": 25,
+              "name": "small-lamp",
+              "position": {
+                "x": -2576.5,
+                "y": 2901.5
+              }
+            },
+            {
+              "entity_number": 26,
+              "name": "beacon",
+              "position": {
+                "x": -2574.5,
+                "y": 2902.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "beacon",
+              "position": {
+                "x": -2588.5,
+                "y": 2903.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "beacon",
+              "position": {
+                "x": -2585.5,
+                "y": 2903.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 29,
+              "name": "beacon",
+              "position": {
+                "x": -2580.5,
+                "y": 2903.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "beacon",
+              "position": {
+                "x": -2577.5,
+                "y": 2903.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 31,
+              "name": "beacon",
+              "position": {
+                "x": -2591.5,
+                "y": 2905.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "beacon",
+              "position": {
+                "x": -2574.5,
+                "y": 2905.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 3
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "nuclear-fuel"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "rail-chain-signal",
+              "position": {
+                "x": -2619.5,
+                "y": 2775.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 2,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2617,
+                "y": 2776
+              },
+              "neighbours": [
+                9
+              ]
+            },
+            {
+              "entity_number": 3,
+              "name": "train-stop",
+              "position": {
+                "x": -2619,
+                "y": 2777
+              },
+              "station": ""
+            },
+            {
+              "entity_number": 4,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2783.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2782.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 6,
+              "name": "logistic-chest-requester",
+              "position": {
+                "x": -2618.5,
+                "y": 2782.5
+              },
+              "request_filters": [
+                {
+                  "index": 1,
+                  "name": "nuclear-fuel",
+                  "count": 40
+                }
+              ]
+            },
+            {
+              "entity_number": 7,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2784.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 8,
+              "name": "logistic-chest-requester",
+              "position": {
+                "x": -2618.5,
+                "y": 2784.5
+              },
+              "request_filters": [
+                {
+                  "index": 1,
+                  "name": "nuclear-fuel",
+                  "count": 40
+                }
+              ]
+            },
+            {
+              "entity_number": 9,
+              "name": "substation",
+              "position": {
+                "x": -2617,
+                "y": 2785
+              },
+              "neighbours": [
+                2,
+                17
+              ]
+            },
+            {
+              "entity_number": 10,
+              "name": "roboport",
+              "position": {
+                "x": -2618,
+                "y": 2788
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2790.5
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2796.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 13,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2796.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2797.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2798.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 16,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2798.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "substation",
+              "position": {
+                "x": -2617,
+                "y": 2799
+              },
+              "neighbours": [
+                9,
+                24
+              ]
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2804.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2810.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2810.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 21,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2811.5
+              }
+            },
+            {
+              "entity_number": 22,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2812.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 23,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2812.5
+              }
+            },
+            {
+              "entity_number": 24,
+              "name": "substation",
+              "position": {
+                "x": -2617,
+                "y": 2813
+              },
+              "neighbours": [
+                17,
+                31
+              ]
+            },
+            {
+              "entity_number": 25,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2818.5
+              }
+            },
+            {
+              "entity_number": 26,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2824.5
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2824.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 28,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2825.5
+              }
+            },
+            {
+              "entity_number": 29,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2826.5
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2826.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 31,
+              "name": "substation",
+              "position": {
+                "x": -2617,
+                "y": 2827
+              },
+              "neighbours": [
+                24,
+                39
+              ]
+            },
+            {
+              "entity_number": 32,
+              "name": "roboport",
+              "position": {
+                "x": -2618,
+                "y": 2830
+              }
+            },
+            {
+              "entity_number": 33,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2832.5
+              }
+            },
+            {
+              "entity_number": 34,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2839.5
+              }
+            },
+            {
+              "entity_number": 35,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2838.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 36,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2838.5
+              }
+            },
+            {
+              "entity_number": 37,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2619.5,
+                "y": 2840.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 38,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2618.5,
+                "y": 2840.5
+              }
+            },
+            {
+              "entity_number": 39,
+              "name": "substation",
+              "position": {
+                "x": -2617,
+                "y": 2841
+              },
+              "neighbours": [
+                31
+              ]
+            },
+            {
+              "entity_number": 40,
+              "name": "small-lamp",
+              "position": {
+                "x": -2619.5,
+                "y": 2846.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 4
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2525,
+                "y": 2833
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2520,
+                "y": 2834
+              },
+              "direction": 3
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2517,
+                "y": 2837
+              },
+              "direction": 1
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2514,
+                "y": 2840
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2513,
+                "y": 2845
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q1",
+          "version": 281479275151360
+        },
+        "index": 6
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "curved-rail",
+              "position": {
+                "x": -2534,
+                "y": 2834
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 2,
+              "name": "straight-rail",
+              "position": {
+                "x": -2529,
+                "y": 2833
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2537,
+                "y": 2837
+              },
+              "direction": 7
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2540,
+                "y": 2840
+              },
+              "direction": 1
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2541,
+                "y": 2845
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q2",
+          "version": 281479275151360
+        },
+        "index": 7
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2541,
+                "y": 2849
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2540,
+                "y": 2854
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2537,
+                "y": 2857
+              },
+              "direction": 5
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2534,
+                "y": 2860
+              },
+              "direction": 7
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2529,
+                "y": 2861
+              },
+              "direction": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q3",
+          "version": 281479275151360
+        },
+        "index": 8
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2513,
+                "y": 2849
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2514,
+                "y": 2854
+              },
+              "direction": 5
+            },
+            {
+              "entity_number": 3,
+              "name": "curved-rail",
+              "position": {
+                "x": -2520,
+                "y": 2860
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 4,
+              "name": "straight-rail",
+              "position": {
+                "x": -2517,
+                "y": 2857
+              },
+              "direction": 3
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2525,
+                "y": 2861
+              },
+              "direction": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q4",
+          "version": 281479275151360
+        },
+        "index": 9
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "electronic-circuit"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "beacon",
+              "position": {
+                "x": -2691.5,
+                "y": 2531.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "small-lamp",
+              "position": {
+                "x": -2687.5,
+                "y": 2531.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2678.5,
+                "y": 2531.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "beacon",
+              "position": {
+                "x": -2674.5,
+                "y": 2531.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "beacon",
+              "position": {
+                "x": -2688.5,
+                "y": 2533.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "beacon",
+              "position": {
+                "x": -2685.5,
+                "y": 2533.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "beacon",
+              "position": {
+                "x": -2680.5,
+                "y": 2533.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "beacon",
+              "position": {
+                "x": -2677.5,
+                "y": 2533.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "beacon",
+              "position": {
+                "x": -2691.5,
+                "y": 2535.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "substation",
+              "position": {
+                "x": -2689,
+                "y": 2536
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 18
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                33
+              ]
+            },
+            {
+              "entity_number": 11,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2686.5,
+                "y": 2536.5
+              },
+              "recipe": "electronic-circuit",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2684.5,
+                "y": 2535.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 13,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2679.5,
+                "y": 2536.5
+              },
+              "recipe": "electronic-circuit",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2681.5,
+                "y": 2535.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 15,
+              "name": "beacon",
+              "position": {
+                "x": -2674.5,
+                "y": 2535.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "beacon",
+              "position": {
+                "x": -2689.5,
+                "y": 2538.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "small-lamp",
+              "position": {
+                "x": -2684.5,
+                "y": 2536.5
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2684.5,
+                "y": 2537.5
+              },
+              "direction": 6,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-A"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 10
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2681.5,
+                "y": 2537.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-A"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 33
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "small-lamp",
+              "position": {
+                "x": -2681.5,
+                "y": 2536.5
+              }
+            },
+            {
+              "entity_number": 21,
+              "name": "beacon",
+              "position": {
+                "x": -2676.5,
+                "y": 2538.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 22,
+              "name": "small-lamp",
+              "position": {
+                "x": -2691.5,
+                "y": 2538.5
+              }
+            },
+            {
+              "entity_number": 23,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2686.5,
+                "y": 2540.5
+              },
+              "recipe": "copper-cable",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 24,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2684.5,
+                "y": 2539.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 25,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2685.5,
+                "y": 2538.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 26,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2680.5,
+                "y": 2538.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 27,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2679.5,
+                "y": 2540.5
+              },
+              "recipe": "copper-cable",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2681.5,
+                "y": 2539.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 29,
+              "name": "small-lamp",
+              "position": {
+                "x": -2674.5,
+                "y": 2538.5
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "beacon",
+              "position": {
+                "x": -2691.5,
+                "y": 2541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 31,
+              "name": "small-lamp",
+              "position": {
+                "x": -2684.5,
+                "y": 2540.5
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "small-lamp",
+              "position": {
+                "x": -2681.5,
+                "y": 2540.5
+              }
+            },
+            {
+              "entity_number": 33,
+              "name": "substation",
+              "position": {
+                "x": -2677,
+                "y": 2541
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 19
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                10
+              ]
+            },
+            {
+              "entity_number": 34,
+              "name": "beacon",
+              "position": {
+                "x": -2674.5,
+                "y": 2541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 35,
+              "name": "beacon",
+              "position": {
+                "x": -2688.5,
+                "y": 2543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 36,
+              "name": "beacon",
+              "position": {
+                "x": -2685.5,
+                "y": 2543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 37,
+              "name": "beacon",
+              "position": {
+                "x": -2680.5,
+                "y": 2543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 38,
+              "name": "beacon",
+              "position": {
+                "x": -2677.5,
+                "y": 2543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 39,
+              "name": "beacon",
+              "position": {
+                "x": -2691.5,
+                "y": 2545.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 40,
+              "name": "small-lamp",
+              "position": {
+                "x": -2687.5,
+                "y": 2545.5
+              }
+            },
+            {
+              "entity_number": 41,
+              "name": "small-lamp",
+              "position": {
+                "x": -2678.5,
+                "y": 2545.5
+              }
+            },
+            {
+              "entity_number": 42,
+              "name": "beacon",
+              "position": {
+                "x": -2674.5,
+                "y": 2545.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 12
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "copper-cable"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "beacon",
+              "position": {
+                "x": -2857.5,
+                "y": 1999.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "beacon",
+              "position": {
+                "x": -2854.5,
+                "y": 2000.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "beacon",
+              "position": {
+                "x": -2851.5,
+                "y": 2000.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "beacon",
+              "position": {
+                "x": -2846.5,
+                "y": 2000.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "beacon",
+              "position": {
+                "x": -2843.5,
+                "y": 2000.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "beacon",
+              "position": {
+                "x": -2840.5,
+                "y": 1999.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "beacon",
+              "position": {
+                "x": -2857.5,
+                "y": 2002.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "beacon",
+              "position": {
+                "x": -2840.5,
+                "y": 2002.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "small-lamp",
+              "position": {
+                "x": -2855.5,
+                "y": 2002.5
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "substation",
+              "position": {
+                "x": -2855,
+                "y": 2004
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 12
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                18
+              ]
+            },
+            {
+              "entity_number": 11,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2852.5,
+                "y": 2004.5
+              },
+              "recipe": "copper-cable",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2850.5,
+                "y": 2003.5
+              },
+              "direction": 6,
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 10
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2850.5,
+                "y": 2002.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -2845.5,
+                "y": 2004.5
+              },
+              "recipe": "copper-cable",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -2847.5,
+                "y": 2002.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2847.5,
+                "y": 2003.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 18
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "small-lamp",
+              "position": {
+                "x": -2842.5,
+                "y": 2002.5
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "substation",
+              "position": {
+                "x": -2843,
+                "y": 2004
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 16
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                10
+              ]
+            },
+            {
+              "entity_number": 19,
+              "name": "beacon",
+              "position": {
+                "x": -2857.5,
+                "y": 2006.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "small-lamp",
+              "position": {
+                "x": -2855.5,
+                "y": 2005.5
+              }
+            },
+            {
+              "entity_number": 21,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2850.5,
+                "y": 2004.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 22,
+              "name": "small-lamp",
+              "position": {
+                "x": -2850.5,
+                "y": 2005.5
+              }
+            },
+            {
+              "entity_number": 23,
+              "name": "small-lamp",
+              "position": {
+                "x": -2847.5,
+                "y": 2005.5
+              }
+            },
+            {
+              "entity_number": 24,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2847.5,
+                "y": 2004.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 25,
+              "name": "small-lamp",
+              "position": {
+                "x": -2842.5,
+                "y": 2005.5
+              }
+            },
+            {
+              "entity_number": 26,
+              "name": "beacon",
+              "position": {
+                "x": -2840.5,
+                "y": 2006.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "beacon",
+              "position": {
+                "x": -2854.5,
+                "y": 2007.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "beacon",
+              "position": {
+                "x": -2851.5,
+                "y": 2007.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 29,
+              "name": "beacon",
+              "position": {
+                "x": -2846.5,
+                "y": 2007.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "beacon",
+              "position": {
+                "x": -2843.5,
+                "y": 2007.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 31,
+              "name": "beacon",
+              "position": {
+                "x": -2857.5,
+                "y": 2009.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "beacon",
+              "position": {
+                "x": -2840.5,
+                "y": 2009.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 13
+      }
+    ],
+    "item": "blueprint-book",
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-C"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-O"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-D"
+        },
+        "index": 3
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-E"
+        },
+        "index": 4
+      }
+    ],
+    "active_index": 0,
+    "version": 281479275151360
+  }
+}

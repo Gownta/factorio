@@ -1,0 +1,26 @@
+{
+  "blueprint": {
+    "description": "\u2190 \u2191 \u2192 \u2193 \u2194 \u2195 \u21a4 \u21a6 \u21ba \u21bb \u21d4",
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-asterisk"
+        },
+        "index": 1
+      }
+    ],
+    "tiles": [
+      {
+        "position": {
+          "x": 242,
+          "y": -288
+        },
+        "name": "refined-concrete"
+      }
+    ],
+    "item": "blueprint",
+    "label": "CHARS",
+    "version": 281479273971713
+  }
+}

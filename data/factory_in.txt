@@ -1,0 +1,754 @@
+{
+  "blueprint_book": {
+    "blueprints": [
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "beacon"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "assembling-machine-3"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3464.5,
+                "y": 4537.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 2,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3463.5,
+                "y": 4537.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 3,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3462.5,
+                "y": 4537.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 4,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3458.5,
+                "y": 4537.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 5,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3457.5,
+                "y": 4537.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 6,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3456.5,
+                "y": 4537.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 7,
+              "name": "beacon",
+              "position": {
+                "x": -3465.5,
+                "y": 4540.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3463.5,
+                "y": 4538.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 9,
+              "name": "beacon",
+              "position": {
+                "x": -3462.5,
+                "y": 4540.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "beacon",
+              "position": {
+                "x": -3458.5,
+                "y": 4540.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3457.5,
+                "y": 4538.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 12,
+              "name": "beacon",
+              "position": {
+                "x": -3455.5,
+                "y": 4540.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "beacon",
+              "position": {
+                "x": -3465.5,
+                "y": 4543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -3463.5,
+                "y": 4542.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3460.5,
+                "y": 4543.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 16,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3460.5,
+                "y": 4542.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 17,
+              "name": "substation",
+              "position": {
+                "x": -3459,
+                "y": 4543
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -3457.5,
+                "y": 4542.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "beacon",
+              "position": {
+                "x": -3455.5,
+                "y": 4543.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "beacon",
+              "position": {
+                "x": -3465.5,
+                "y": 4546.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 21,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3462.5,
+                "y": 4545.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 22,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3463.5,
+                "y": 4545.5
+              },
+              "direction": 4,
+              "type": "output"
+            },
+            {
+              "entity_number": 23,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -3460.5,
+                "y": 4545.5
+              },
+              "recipe": "iron-gear-wheel",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 24,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3458.5,
+                "y": 4545.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 25,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3457.5,
+                "y": 4545.5
+              },
+              "direction": 4,
+              "type": "output"
+            },
+            {
+              "entity_number": 26,
+              "name": "beacon",
+              "position": {
+                "x": -3455.5,
+                "y": 4546.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "small-lamp",
+              "position": {
+                "x": -3463.5,
+                "y": 4547.5
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3463.5,
+                "y": 4546.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 29,
+              "name": "small-lamp",
+              "position": {
+                "x": -3457.5,
+                "y": 4547.5
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3457.5,
+                "y": 4546.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 31,
+              "name": "beacon",
+              "position": {
+                "x": -3465.5,
+                "y": 4549.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "beacon",
+              "position": {
+                "x": -3462.5,
+                "y": 4549.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 33,
+              "name": "beacon",
+              "position": {
+                "x": -3458.5,
+                "y": 4549.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 34,
+              "name": "beacon",
+              "position": {
+                "x": -3455.5,
+                "y": 4549.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 35,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3460.5,
+                "y": 4550.5
+              },
+              "direction": 4,
+              "type": "output"
+            },
+            {
+              "entity_number": 36,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3460.5,
+                "y": 4551.5
+              },
+              "direction": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "4-in",
+          "version": 281479275151360
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "beacon"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "assembling-machine-3"
+              },
+              "index": 2
+            },
+            {
+              "signal": {
+                "type": "fluid",
+                "name": "water"
+              },
+              "index": 3
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "pump",
+              "position": {
+                "x": -3488.5,
+                "y": 4538
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 2,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3494.5,
+                "y": 4538.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 3,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3493.5,
+                "y": 4539.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 4,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3493.5,
+                "y": 4538.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 5,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3492.5,
+                "y": 4538.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 6,
+              "name": "pipe-to-ground",
+              "position": {
+                "x": -3488.5,
+                "y": 4539.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "beacon",
+              "position": {
+                "x": -3495.5,
+                "y": 4541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "beacon",
+              "position": {
+                "x": -3492.5,
+                "y": 4541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "beacon",
+              "position": {
+                "x": -3488.5,
+                "y": 4541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "beacon",
+              "position": {
+                "x": -3485.5,
+                "y": 4541.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "beacon",
+              "position": {
+                "x": -3495.5,
+                "y": 4544.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "small-lamp",
+              "position": {
+                "x": -3493.5,
+                "y": 4543.5
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3490.5,
+                "y": 4543.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 14,
+              "name": "substation",
+              "position": {
+                "x": -3489,
+                "y": 4544
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -3487.5,
+                "y": 4543.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "beacon",
+              "position": {
+                "x": -3485.5,
+                "y": 4544.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3490.5,
+                "y": 4544.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 18,
+              "name": "assembling-machine-3",
+              "position": {
+                "x": -3490.5,
+                "y": 4546.5
+              },
+              "direction": 2,
+              "recipe": "processing-unit",
+              "items": {
+                "productivity-module-3": 4
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "pipe-to-ground",
+              "position": {
+                "x": -3488.5,
+                "y": 4545.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 20,
+              "name": "beacon",
+              "position": {
+                "x": -3495.5,
+                "y": 4547.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 21,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3493.5,
+                "y": 4546.5
+              },
+              "direction": 4,
+              "type": "output"
+            },
+            {
+              "entity_number": 22,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3493.5,
+                "y": 4547.5
+              },
+              "direction": 4,
+              "type": "input"
+            },
+            {
+              "entity_number": 23,
+              "name": "stack-inserter",
+              "position": {
+                "x": -3492.5,
+                "y": 4546.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 24,
+              "name": "pipe",
+              "position": {
+                "x": -3488.5,
+                "y": 4546.5
+              }
+            },
+            {
+              "entity_number": 25,
+              "name": "pipe-to-ground",
+              "position": {
+                "x": -3488.5,
+                "y": 4547.5
+              }
+            },
+            {
+              "entity_number": 26,
+              "name": "beacon",
+              "position": {
+                "x": -3485.5,
+                "y": 4547.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 27,
+              "name": "beacon",
+              "position": {
+                "x": -3495.5,
+                "y": 4550.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 28,
+              "name": "small-lamp",
+              "position": {
+                "x": -3493.5,
+                "y": 4548.5
+              }
+            },
+            {
+              "entity_number": 29,
+              "name": "beacon",
+              "position": {
+                "x": -3492.5,
+                "y": 4550.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 30,
+              "name": "beacon",
+              "position": {
+                "x": -3488.5,
+                "y": 4550.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 31,
+              "name": "small-lamp",
+              "position": {
+                "x": -3487.5,
+                "y": 4548.5
+              }
+            },
+            {
+              "entity_number": 32,
+              "name": "beacon",
+              "position": {
+                "x": -3485.5,
+                "y": 4550.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 33,
+              "name": "express-underground-belt",
+              "position": {
+                "x": -3490.5,
+                "y": 4551.5
+              },
+              "direction": 4,
+              "type": "output"
+            },
+            {
+              "entity_number": 34,
+              "name": "express-transport-belt",
+              "position": {
+                "x": -3490.5,
+                "y": 4552.5
+              },
+              "direction": 4
+            }
+          ],
+          "item": "blueprint",
+          "label": "fluid in",
+          "version": 281479275151360
+        },
+        "index": 1
+      }
+    ],
+    "item": "blueprint-book",
+    "label": "Code 2",
+    "active_index": 1,
+    "version": 281479275151360
+  }
+}

@@ -1,0 +1,563 @@
+{
+  "blueprint": {
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-8"
+        },
+        "index": 1
+      }
+    ],
+    "entities": [
+      {
+        "entity_number": 1,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -2859,
+          "y": 2169
+        },
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 2,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2169
+        }
+      },
+      {
+        "entity_number": 3,
+        "name": "beacon",
+        "position": {
+          "x": -2867.5,
+          "y": 2171.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 4,
+        "name": "small-lamp",
+        "position": {
+          "x": -2865.5,
+          "y": 2170.5
+        }
+      },
+      {
+        "entity_number": 5,
+        "name": "beacon",
+        "position": {
+          "x": -2864.5,
+          "y": 2172.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 6,
+        "name": "beacon",
+        "position": {
+          "x": -2861.5,
+          "y": 2172.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 7,
+        "name": "small-lamp",
+        "position": {
+          "x": -2860.5,
+          "y": 2170.5
+        }
+      },
+      {
+        "entity_number": 8,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2171
+        }
+      },
+      {
+        "entity_number": 9,
+        "name": "small-lamp",
+        "position": {
+          "x": -2857.5,
+          "y": 2170.5
+        }
+      },
+      {
+        "entity_number": 10,
+        "name": "beacon",
+        "position": {
+          "x": -2856.5,
+          "y": 2172.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 11,
+        "name": "beacon",
+        "position": {
+          "x": -2853.5,
+          "y": 2172.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 12,
+        "name": "small-lamp",
+        "position": {
+          "x": -2852.5,
+          "y": 2170.5
+        }
+      },
+      {
+        "entity_number": 13,
+        "name": "beacon",
+        "position": {
+          "x": -2850.5,
+          "y": 2171.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 14,
+        "name": "beacon",
+        "position": {
+          "x": -2867.5,
+          "y": 2174.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 15,
+        "name": "cargo-wagon",
+        "position": {
+          "x": -2859,
+          "y": 2176
+        },
+        "orientation": 0.5,
+        "inventory": null
+      },
+      {
+        "entity_number": 16,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2173
+        }
+      },
+      {
+        "entity_number": 17,
+        "name": "beacon",
+        "position": {
+          "x": -2850.5,
+          "y": 2174.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 18,
+        "name": "small-lamp",
+        "position": {
+          "x": -2865.5,
+          "y": 2174.5
+        }
+      },
+      {
+        "entity_number": 19,
+        "name": "substation",
+        "position": {
+          "x": -2865,
+          "y": 2176
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 21
+              },
+              {
+                "entity_id": 28
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          28
+        ]
+      },
+      {
+        "entity_number": 20,
+        "name": "electric-furnace",
+        "position": {
+          "x": -2862.5,
+          "y": 2176.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 21,
+        "name": "stack-inserter",
+        "position": {
+          "x": -2860.5,
+          "y": 2175.5
+        },
+        "direction": 6,
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 19
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 22,
+        "name": "small-lamp",
+        "position": {
+          "x": -2860.5,
+          "y": 2174.5
+        }
+      },
+      {
+        "entity_number": 23,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2175
+        }
+      },
+      {
+        "entity_number": 24,
+        "name": "small-lamp",
+        "position": {
+          "x": -2857.5,
+          "y": 2174.5
+        }
+      },
+      {
+        "entity_number": 25,
+        "name": "stack-inserter",
+        "position": {
+          "x": -2857.5,
+          "y": 2175.5
+        },
+        "direction": 2,
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 28
+              }
+            ]
+          }
+        }
+      },
+      {
+        "entity_number": 26,
+        "name": "electric-furnace",
+        "position": {
+          "x": -2855.5,
+          "y": 2176.5
+        },
+        "items": {
+          "productivity-module-3": 2
+        }
+      },
+      {
+        "entity_number": 27,
+        "name": "small-lamp",
+        "position": {
+          "x": -2852.5,
+          "y": 2174.5
+        }
+      },
+      {
+        "entity_number": 28,
+        "name": "substation",
+        "position": {
+          "x": -2853,
+          "y": 2176
+        },
+        "connections": {
+          "1": {
+            "red": [
+              {
+                "entity_id": 25
+              },
+              {
+                "entity_id": 19
+              }
+            ]
+          }
+        },
+        "neighbours": [
+          19
+        ]
+      },
+      {
+        "entity_number": 29,
+        "name": "beacon",
+        "position": {
+          "x": -2867.5,
+          "y": 2177.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 30,
+        "name": "small-lamp",
+        "position": {
+          "x": -2865.5,
+          "y": 2177.5
+        }
+      },
+      {
+        "entity_number": 31,
+        "name": "stack-inserter",
+        "position": {
+          "x": -2860.5,
+          "y": 2176.5
+        },
+        "direction": 2
+      },
+      {
+        "entity_number": 32,
+        "name": "small-lamp",
+        "position": {
+          "x": -2860.5,
+          "y": 2177.5
+        }
+      },
+      {
+        "entity_number": 33,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2177
+        }
+      },
+      {
+        "entity_number": 34,
+        "name": "small-lamp",
+        "position": {
+          "x": -2857.5,
+          "y": 2177.5
+        }
+      },
+      {
+        "entity_number": 35,
+        "name": "stack-inserter",
+        "position": {
+          "x": -2857.5,
+          "y": 2176.5
+        },
+        "direction": 6
+      },
+      {
+        "entity_number": 36,
+        "name": "small-lamp",
+        "position": {
+          "x": -2852.5,
+          "y": 2177.5
+        }
+      },
+      {
+        "entity_number": 37,
+        "name": "beacon",
+        "position": {
+          "x": -2850.5,
+          "y": 2177.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 38,
+        "name": "beacon",
+        "position": {
+          "x": -2867.5,
+          "y": 2180.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 39,
+        "name": "beacon",
+        "position": {
+          "x": -2864.5,
+          "y": 2179.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 40,
+        "name": "beacon",
+        "position": {
+          "x": -2861.5,
+          "y": 2179.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 41,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2179
+        }
+      },
+      {
+        "entity_number": 42,
+        "name": "beacon",
+        "position": {
+          "x": -2856.5,
+          "y": 2179.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 43,
+        "name": "beacon",
+        "position": {
+          "x": -2853.5,
+          "y": 2179.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 44,
+        "name": "beacon",
+        "position": {
+          "x": -2850.5,
+          "y": 2180.5
+        },
+        "items": {
+          "speed-module-3": 2
+        }
+      },
+      {
+        "entity_number": 45,
+        "name": "locomotive",
+        "position": {
+          "x": -2859,
+          "y": 2183
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 46,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2181
+        }
+      },
+      {
+        "entity_number": 47,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2183
+        }
+      },
+      {
+        "entity_number": 48,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2185
+        }
+      },
+      {
+        "entity_number": 49,
+        "name": "locomotive",
+        "position": {
+          "x": -2859,
+          "y": 2190
+        },
+        "orientation": 0.5
+      },
+      {
+        "entity_number": 50,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2187
+        }
+      },
+      {
+        "entity_number": 51,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2189
+        }
+      },
+      {
+        "entity_number": 52,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2191
+        }
+      },
+      {
+        "entity_number": 53,
+        "name": "train-stop",
+        "position": {
+          "x": -2861,
+          "y": 2193
+        },
+        "direction": 4,
+        "station": "Kenakapheus"
+      },
+      {
+        "entity_number": 54,
+        "name": "straight-rail",
+        "position": {
+          "x": -2859,
+          "y": 2193
+        }
+      }
+    ],
+    "item": "blueprint",
+    "version": 281479275151360
+  }
+}

@@ -1,0 +1,2754 @@
+{
+  "blueprint_book": {
+    "blueprints": [
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1625.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1625.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1628.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2369,
+                "y": 1630
+              },
+              "neighbours": [
+                7
+              ]
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1628.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1628.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2357,
+                "y": 1630
+              },
+              "neighbours": [
+                4
+              ]
+            },
+            {
+              "entity_number": 8,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1628.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1631.5
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1631.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "straight-rail",
+              "position": {
+                "x": -2363,
+                "y": 1631
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "rail-chain-signal",
+              "position": {
+                "x": -2361.5,
+                "y": 1631.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1631.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1631.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1632.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1632.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Stop head",
+          "version": 281479275151360
+        },
+        "index": 0
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "train-stop"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1632.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1632.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "train-stop",
+              "position": {
+                "x": -2361,
+                "y": 1633
+              },
+              "station": "Z [item=electronic-circuit] 01  ::  [item=copper-ore][item=iron-ore]\u2192[item=copper-plate][item=iron-plate]",
+              "color": {
+                "r": 0.25,
+                "g": 1,
+                "b": 0,
+                "a": 0.75
+              },
+              "manual_trains_limit": 1
+            },
+            {
+              "entity_number": 4,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1639.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Stop stop",
+          "version": 281479275151360
+        },
+        "index": 1
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1646.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Stop blank",
+          "version": 281479275151360
+        },
+        "index": 2
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail-signal"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "rail-signal",
+              "position": {
+                "x": -2361.5,
+                "y": 1642.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 4,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1646.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Stop intermediate",
+          "version": 281479275151360
+        },
+        "index": 3
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1648.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2369,
+                "y": 1650
+              },
+              "neighbours": [
+                9
+              ]
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1648.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "straight-rail",
+              "position": {
+                "x": -2363,
+                "y": 1649
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "rail-signal",
+              "position": {
+                "x": -2361.5,
+                "y": 1649.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 8,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1648.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2357,
+                "y": 1650
+              },
+              "neighbours": [
+                4
+              ]
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1648.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1651.5
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1651.5
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1651.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1651.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1653.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Stop tail",
+          "version": 281479275151360
+        },
+        "index": 5
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "substation"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2364.5,
+                "y": 1654.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1654.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "substation",
+              "position": {
+                "x": -2357,
+                "y": 1657
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "small-lamp",
+              "position": {
+                "x": -2364.5,
+                "y": 1659.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1659.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1660.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Fuel power",
+          "version": 281479275151360
+        },
+        "index": 8
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "roboport"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "roboport",
+              "position": {
+                "x": -2360,
+                "y": 1657
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1660.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Fuel robo",
+          "version": 281479275151360
+        },
+        "index": 9
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-chest-passive-provider"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2364.5,
+                "y": 1656.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 4,
+              "name": "logistic-chest-passive-provider",
+              "position": {
+                "x": -2365.5,
+                "y": 1656.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1660.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Fuel dropoff",
+          "version": 281479275151360
+        },
+        "index": 10
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1674.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1674.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1676.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2369,
+                "y": 1678
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 17
+                    }
+                  ],
+                  "green": [
+                    {
+                      "entity_id": 17
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                9,
+                17
+              ]
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1676.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "straight-rail",
+              "position": {
+                "x": -2363,
+                "y": 1677
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "rail-signal",
+              "position": {
+                "x": -2361.5,
+                "y": 1677.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 8,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1676.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2357,
+                "y": 1678
+              },
+              "neighbours": [
+                4
+              ]
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1676.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1679.5
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1679.5
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1679.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1679.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1681.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1681.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2376,
+                "y": 1686
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 4
+                    }
+                  ],
+                  "green": [
+                    {
+                      "entity_id": 4
+                    }
+                  ]
+                }
+              },
+              "neighbours": [
+                4
+              ]
+            }
+          ],
+          "item": "blueprint",
+          "label": "Fuel special tail",
+          "version": 281479275151360
+        },
+        "index": 11
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "big-electric-pole"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1681.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1681.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1684.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2369,
+                "y": 1686
+              },
+              "neighbours": [
+                8
+              ]
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1684.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "medium-electric-pole",
+              "position": {
+                "x": -2360.5,
+                "y": 1684.5
+              },
+              "neighbours": [
+                8
+              ]
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1684.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "big-electric-pole",
+              "position": {
+                "x": -2357,
+                "y": 1686
+              },
+              "neighbours": [
+                4,
+                6
+              ]
+            },
+            {
+              "entity_number": 9,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1684.5
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2370.5,
+                "y": 1687.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "small-lamp",
+              "position": {
+                "x": -2367.5,
+                "y": 1687.5
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "straight-rail",
+              "position": {
+                "x": -2363,
+                "y": 1687
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "rail-chain-signal",
+              "position": {
+                "x": -2361.5,
+                "y": 1687.5
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 14,
+              "name": "small-lamp",
+              "position": {
+                "x": -2358.5,
+                "y": 1687.5
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -2355.5,
+                "y": 1687.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1688.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1688.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Waiting special head",
+          "version": 281479275151360
+        },
+        "index": 12
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "medium-electric-pole"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "medium-electric-pole",
+              "position": {
+                "x": -2360.5,
+                "y": 1663.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1667.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1667.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Waiting power",
+          "version": 281479275151360
+        },
+        "index": 14
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "logistic-chest-requester"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "medium-electric-pole",
+              "position": {
+                "x": -2360.5,
+                "y": 1663.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "logistic-chest-requester",
+              "position": {
+                "x": -2360.5,
+                "y": 1664.5
+              },
+              "request_filters": [
+                {
+                  "index": 1,
+                  "name": "nuclear-fuel",
+                  "count": 6
+                }
+              ]
+            },
+            {
+              "entity_number": 6,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2361.5,
+                "y": 1664.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2361.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2362.5,
+                "y": 1667.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2363.5,
+                "y": 1667.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Waiting refueling",
+          "version": 281479275151360
+        },
+        "index": 15
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2525,
+                "y": 2833
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2520,
+                "y": 2834
+              },
+              "direction": 3
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2517,
+                "y": 2837
+              },
+              "direction": 1
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2514,
+                "y": 2840
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2513,
+                "y": 2845
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q1",
+          "version": 281479275151360
+        },
+        "index": 18
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "curved-rail",
+              "position": {
+                "x": -2534,
+                "y": 2834
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 2,
+              "name": "straight-rail",
+              "position": {
+                "x": -2529,
+                "y": 2833
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2537,
+                "y": 2837
+              },
+              "direction": 7
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2540,
+                "y": 2840
+              },
+              "direction": 1
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2541,
+                "y": 2845
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q2",
+          "version": 281479275151360
+        },
+        "index": 19
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2541,
+                "y": 2849
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2540,
+                "y": 2854
+              },
+              "direction": 4
+            },
+            {
+              "entity_number": 3,
+              "name": "straight-rail",
+              "position": {
+                "x": -2537,
+                "y": 2857
+              },
+              "direction": 5
+            },
+            {
+              "entity_number": 4,
+              "name": "curved-rail",
+              "position": {
+                "x": -2534,
+                "y": 2860
+              },
+              "direction": 7
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2529,
+                "y": 2861
+              },
+              "direction": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q3",
+          "version": 281479275151360
+        },
+        "index": 20
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "straight-rail",
+              "position": {
+                "x": -2513,
+                "y": 2849
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "curved-rail",
+              "position": {
+                "x": -2514,
+                "y": 2854
+              },
+              "direction": 5
+            },
+            {
+              "entity_number": 3,
+              "name": "curved-rail",
+              "position": {
+                "x": -2520,
+                "y": 2860
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 4,
+              "name": "straight-rail",
+              "position": {
+                "x": -2517,
+                "y": 2857
+              },
+              "direction": 3
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2525,
+                "y": 2861
+              },
+              "direction": 2
+            }
+          ],
+          "item": "blueprint",
+          "label": "Q4",
+          "version": 281479275151360
+        },
+        "index": 21
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "rail"
+              },
+              "index": 1
+            },
+            {
+              "signal": {
+                "type": "item",
+                "name": "locomotive"
+              },
+              "index": 2
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "locomotive",
+              "position": {
+                "x": -2343,
+                "y": 1636
+              },
+              "orientation": 0,
+              "color": {
+                "r": 0.25,
+                "g": 1,
+                "b": 0,
+                "a": 0.75
+              },
+              "items": {
+                "nuclear-fuel": 1
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1633
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "train-stop",
+              "position": {
+                "x": -2341,
+                "y": 1633
+              },
+              "station": "",
+              "color": {
+                "r": 0.25,
+                "g": 1,
+                "b": 0,
+                "a": 0.75
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1635
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1637
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1639
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "locomotive",
+              "position": {
+                "x": -2343,
+                "y": 1643
+              },
+              "orientation": 0,
+              "color": {
+                "r": 0.25,
+                "g": 1,
+                "b": 0,
+                "a": 0.75
+              },
+              "items": {
+                "nuclear-fuel": 1
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1641
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1643
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1645
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "cargo-wagon",
+              "position": {
+                "x": -2343,
+                "y": 1650
+              },
+              "orientation": 0.5,
+              "inventory": null
+            },
+            {
+              "entity_number": 12,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1647
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1649
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1651
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "straight-rail",
+              "position": {
+                "x": -2343,
+                "y": 1653
+              }
+            }
+          ],
+          "schedules": [
+            {
+              "locomotives": [
+                1,
+                7
+              ],
+              "schedule": [
+                {
+                  "station": "X [item=electronic-circuit].01 start",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "or",
+                      "type": "time",
+                      "ticks": 120
+                    }
+                  ]
+                },
+                {
+                  "station": "X [item=electronic-circuit] 01 :: [item=copper-ore][item=iron-ore]\u2192[item=copper-plate][item=iron-plate]",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "or",
+                      "type": "time",
+                      "ticks": 300
+                    }
+                  ]
+                },
+                {
+                  "station": "X [item=electronic-circuit].01 ([item=copper-plate][item=iron-plate])\u2192([item=electronic-circuit]_)",
+                  "wait_conditions": [
+                    {
+                      "compare_type": "or",
+                      "type": "time",
+                      "ticks": 180
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "item": "blueprint",
+          "label": "Loco",
+          "version": 281479275151360
+        },
+        "index": 24
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "beacon"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "beacon",
+              "position": {
+                "x": -2399.5,
+                "y": 1637.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "beacon",
+              "position": {
+                "x": -2382.5,
+                "y": 1638.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "beacon",
+              "position": {
+                "x": -2399.5,
+                "y": 1640.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "beacon",
+              "position": {
+                "x": -2396.5,
+                "y": 1639.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "beacon",
+              "position": {
+                "x": -2393.5,
+                "y": 1639.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1639.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "beacon",
+              "position": {
+                "x": -2388.5,
+                "y": 1639.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "beacon",
+              "position": {
+                "x": -2385.5,
+                "y": 1639.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "beacon",
+              "position": {
+                "x": -2382.5,
+                "y": 1641.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "beacon",
+              "position": {
+                "x": -2399.5,
+                "y": 1644.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "beacon",
+              "position": {
+                "x": -2396.5,
+                "y": 1646.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "beacon",
+              "position": {
+                "x": -2393.5,
+                "y": 1646.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "beacon",
+              "position": {
+                "x": -2388.5,
+                "y": 1646.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "beacon",
+              "position": {
+                "x": -2385.5,
+                "y": 1646.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "beacon",
+              "position": {
+                "x": -2382.5,
+                "y": 1645.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "beacon",
+              "position": {
+                "x": -2399.5,
+                "y": 1647.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1646.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "beacon",
+              "position": {
+                "x": -2382.5,
+                "y": 1648.5
+              },
+              "items": {
+                "speed-module-3": 2
+              }
+            }
+          ],
+          "item": "blueprint",
+          "label": "Single beacons",
+          "version": 281479275151360
+        },
+        "index": 25
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "iron-plate"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2394.5,
+                "y": 1656.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2387.5,
+                "y": 1656.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "substation",
+              "position": {
+                "x": -2397,
+                "y": 1657
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 10
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1657.5
+              },
+              "direction": 6,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 9
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1656.5
+              },
+              "direction": 2,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1657.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 14
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1656.5
+              },
+              "direction": 6,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 14,
+              "name": "substation",
+              "position": {
+                "x": -2385,
+                "y": 1657
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 12
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1660.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 30
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "copper-plate"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "substation",
+              "position": {
+                "x": -2397,
+                "y": 1664
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 14
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2394.5,
+                "y": 1663.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1663.5
+              },
+              "direction": 2
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2387.5,
+                "y": 1663.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1663.5
+              },
+              "direction": 6
+            },
+            {
+              "entity_number": 10,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "substation",
+              "position": {
+                "x": -2385,
+                "y": 1664
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 16
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 12,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1662.5
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 14,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1664.5
+              },
+              "direction": 6,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 3
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1664.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 11
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1665.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1667.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1667.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 31
+      },
+      {
+        "blueprint": {
+          "icons": [
+            {
+              "signal": {
+                "type": "item",
+                "name": "steel-plate"
+              },
+              "index": 1
+            }
+          ],
+          "entities": [
+            {
+              "entity_number": 1,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 2,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1653.5
+              }
+            },
+            {
+              "entity_number": 3,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 4,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2394.5,
+                "y": 1656.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 5,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 6,
+              "name": "electric-furnace",
+              "position": {
+                "x": -2387.5,
+                "y": 1656.5
+              },
+              "items": {
+                "productivity-module-3": 2
+              }
+            },
+            {
+              "entity_number": 7,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 8,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1655.5
+              }
+            },
+            {
+              "entity_number": 9,
+              "name": "substation",
+              "position": {
+                "x": -2397,
+                "y": 1657
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 10
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 10,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1657.5
+              },
+              "direction": 6,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 9
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 11,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2392.5,
+                "y": 1656.5
+              },
+              "direction": 2,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 12,
+              "name": "stack-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1657.5
+              },
+              "direction": 2,
+              "control_behavior": {
+                "circuit_condition": {
+                  "first_signal": {
+                    "type": "virtual",
+                    "name": "signal-X"
+                  },
+                  "constant": 1,
+                  "comparator": "="
+                }
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 14
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 13,
+              "name": "stack-filter-inserter",
+              "position": {
+                "x": -2389.5,
+                "y": 1656.5
+              },
+              "direction": 6,
+              "filters": [
+                {
+                  "index": 1,
+                  "name": "iron-ore"
+                }
+              ]
+            },
+            {
+              "entity_number": 14,
+              "name": "substation",
+              "position": {
+                "x": -2385,
+                "y": 1657
+              },
+              "connections": {
+                "1": {
+                  "red": [
+                    {
+                      "entity_id": 12
+                    }
+                  ]
+                }
+              }
+            },
+            {
+              "entity_number": 15,
+              "name": "small-lamp",
+              "position": {
+                "x": -2397.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 16,
+              "name": "small-lamp",
+              "position": {
+                "x": -2392.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 17,
+              "name": "small-lamp",
+              "position": {
+                "x": -2389.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 18,
+              "name": "small-lamp",
+              "position": {
+                "x": -2384.5,
+                "y": 1658.5
+              }
+            },
+            {
+              "entity_number": 19,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2390.5,
+                "y": 1660.5
+              }
+            },
+            {
+              "entity_number": 20,
+              "name": "logistic-chest-buffer",
+              "position": {
+                "x": -2391.5,
+                "y": 1660.5
+              }
+            }
+          ],
+          "item": "blueprint",
+          "version": 281479275151360
+        },
+        "index": 32
+      }
+    ],
+    "item": "blueprint-book",
+    "icons": [
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-C"
+        },
+        "index": 1
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-O"
+        },
+        "index": 2
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-D"
+        },
+        "index": 3
+      },
+      {
+        "signal": {
+          "type": "virtual",
+          "name": "signal-E"
+        },
+        "index": 4
+      }
+    ],
+    "active_index": 0,
+    "version": 281479275151360
+  }
+}
