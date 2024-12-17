@@ -1,0 +1,273 @@
+{
+    "blueprint": {
+        "snap-to-grid": {
+            "x": 16,
+            "y": 14
+        },
+        "absolute-snapping": true,
+        "position-relative-to-grid": {
+            "x": 11,
+            "y": 11
+        },
+        "icons": [
+            {
+                "signal": {
+                    "name": "foundry",
+                    "quality": "legendary"
+                },
+                "index": 1
+            },
+            {
+                "signal": {
+                    "name": "electromagnetic-plant",
+                    "quality": "legendary"
+                },
+                "index": 2
+            }
+        ],
+        "entities": [
+            {
+                "entity_number": 1,
+                "name": "foundry",
+                "position": {
+                    "x": 12.5,
+                    "y": 2.5
+                },
+                "direction": 8,
+                "mirror": true,
+                "quality": "legendary",
+                "recipe": "casting-iron",
+                "recipe_quality": "normal",
+                "items": [
+                    {
+                        "id": {
+                            "name": "speed-module-3",
+                            "quality": "epic"
+                        },
+                        "items": {
+                            "in_inventory": [
+                                {
+                                    "inventory": 4,
+                                    "stack": 0
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 1
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 2
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 3
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "entity_number": 2,
+                "name": "substation",
+                "position": {
+                    "x": 4,
+                    "y": 4
+                }
+            },
+            {
+                "entity_number": 3,
+                "name": "bulk-inserter",
+                "position": {
+                    "x": 9.5,
+                    "y": 3.5
+                },
+                "direction": 4,
+                "quality": "legendary"
+            },
+            {
+                "entity_number": 4,
+                "name": "bulk-inserter",
+                "position": {
+                    "x": 4.5,
+                    "y": 5.5
+                },
+                "direction": 4,
+                "quality": "legendary"
+            },
+            {
+                "entity_number": 5,
+                "name": "electromagnetic-plant",
+                "position": {
+                    "x": 7,
+                    "y": 5
+                },
+                "quality": "legendary",
+                "recipe": "electronic-circuit",
+                "recipe_quality": "normal",
+                "items": [
+                    {
+                        "id": {
+                            "name": "speed-module-3",
+                            "quality": "epic"
+                        },
+                        "items": {
+                            "in_inventory": [
+                                {
+                                    "inventory": 4,
+                                    "stack": 0
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 1
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 2
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 3
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 4
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "entity_number": 6,
+                "name": "electromagnetic-plant",
+                "position": {
+                    "x": 2,
+                    "y": 7
+                },
+                "direction": 8,
+                "mirror": true,
+                "quality": "legendary",
+                "recipe": "processing-unit",
+                "recipe_quality": "normal",
+                "items": [
+                    {
+                        "id": {
+                            "name": "productivity-module-2",
+                            "quality": "legendary"
+                        },
+                        "items": {
+                            "in_inventory": [
+                                {
+                                    "inventory": 4,
+                                    "stack": 0
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 1
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 2
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 3
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 4
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "entity_number": 7,
+                "name": "foundry",
+                "position": {
+                    "x": 12.5,
+                    "y": 7.5
+                },
+                "direction": 12,
+                "mirror": true,
+                "quality": "legendary",
+                "recipe": "casting-copper-cable",
+                "recipe_quality": "normal",
+                "items": [
+                    {
+                        "id": {
+                            "name": "speed-module-3",
+                            "quality": "epic"
+                        },
+                        "items": {
+                            "in_inventory": [
+                                {
+                                    "inventory": 4,
+                                    "stack": 0
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 1
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 2
+                                },
+                                {
+                                    "inventory": 4,
+                                    "stack": 3
+                                }
+                            ]
+                        }
+                    }
+                ]
+            },
+            {
+                "entity_number": 8,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 15.5,
+                    "y": 7.5
+                },
+                "direction": 8
+            },
+            {
+                "entity_number": 9,
+                "name": "pipe",
+                "position": {
+                    "x": 15.5,
+                    "y": 8.5
+                }
+            },
+            {
+                "entity_number": 10,
+                "name": "beacon",
+                "position": {
+                    "x": 6.5,
+                    "y": 9.5
+                },
+                "quality": "legendary"
+            },
+            {
+                "entity_number": 11,
+                "name": "pipe-to-ground",
+                "position": {
+                    "x": 15.5,
+                    "y": 9.5
+                }
+            },
+            {
+                "entity_number": 12,
+                "name": "electromagnetic-plant",
+                "position": {
+                    "x": 2,
+                    "y": 12
+                }
+            }
+        ],
+        "item": "blueprint",
+        "version": 562949954797573
+    }
+}
